@@ -1,0 +1,84 @@
+/* css file for WireFrame assignment */
+
+header, body, div, aside, footer, nav {
+			margin: 0px;
+			padding: 0px;
+			
+		}
+		
+		body{
+			text-align: center;
+			 font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+			background-color:  #777; 
+			font-size: 18px;
+			color: #777;
+		}
+		header{
+			 height: 100px;
+			 background-color:  #ebebeb;
+			 padding: 20px;
+		}
+		nav{
+			 height: 100px; 
+			 background-color:  #ebebeb;
+			 padding: 20px;
+			}
+			
+		aside{
+			 height: 240px; 
+			 background-color:  #ebebeb;
+			width: 43%; 
+			float: right;
+		}
+		footer{
+			 height: 100px;
+			 background-color:  #ebebeb;
+			 padding: 20px;
+			 margin-top: 20px;
+		}
+		h1, h2, h3, h4, h5, p{
+			font-size: 18px;
+			color: #777;
+		}
+		#wrapper{
+			margin: auto; 
+			width: 940px; 
+			padding: 10px; background-color:  #777
+		}
+		#h-container{
+		
+			margin-top: 10px;margin-bottom: 10px;
+			  padding-bottom: 10px;  
+		}
+		#article{
+			background-color: #777; 
+			margin: 10px; 
+			padding: 10px; width: 445px; height:160px; color: #ebebeb;
+
+		}
+		#hhh-container{
+			background-color: #ebebeb; color: #777;
+			margin-top: 10px;margin-bottom: 10px;
+			padding: 10px; width: 425px; height: 20px;
+		}
+		#p-container{
+			background-color: #ebebeb; color: #777;
+			margin-top: 10px;margin-bottom: 10px;
+			padding: 10px; width: 425px; height: 20px;
+		}
+		#c-container{
+			background-color: #777; width: 495px
+			margin-top: 10px;margin-bottom: 10px;
+			 overflow: hidden;
+		}
+		#section{
+			background-color: #ebebeb; height: 220px;
+			width: 52%; float: left; padding: 10px;
+		}
+.clear:after {
+   content: " "; 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
